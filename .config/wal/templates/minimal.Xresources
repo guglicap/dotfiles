@@ -1,0 +1,17 @@
+
+#define base0  {color0}
+#define base1  {color1}
+#define base2  {color2}
+#define base3  {color3}
+#define base4  {color4}
+#define base5  {color5}
+#define base6  {color6}
+#define base7  {color7}
+#define base8  {color8}
+#define base9  {color9}
+#define base10  {color10}
+#define base11  {color11}
+#define base12  {color12}
+#define base13  {color13}
+#define base14  {color14}
+#define base15  {color15}

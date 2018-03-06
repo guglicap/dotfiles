@@ -26,3 +26,5 @@ bspc rule -a Screenkey manage=off
 
 feh --bg-scale ~/.bg
 xsetroot -cursor_name left_ptr
+# compatibility with Java apps
+wmname LG3D

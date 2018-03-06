@@ -37,4 +37,4 @@
 *cursor: base15
 URxvt.font: xft:Terminus:style=Regular
 URxvt.scrollBar: false
-URxvt.internalBorder: 25
+URxvt.internalBorder: 40

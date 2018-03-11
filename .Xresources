@@ -35,6 +35,6 @@
 *foreground: base15
 *background: base0
 *cursor: base15
-URxvt.font: xft:Terminus:style=Regular
+URxvt.font: xft:Terminus:style=Regular xft:NotoColorEmoji:style=Regular
 URxvt.scrollBar: false
 URxvt.internalBorder: 40

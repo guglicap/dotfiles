@@ -24,7 +24,9 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-feh --bg-scale ~/.bg
+feh --bg-scale $HOME/.bg
 xsetroot -cursor_name left_ptr
+cat $HOME/.cache/wal/dunst $HOME/.config/dunst/dunstrc | dunst -config - &
+numlockx
 # compatibility with Java apps
 wmname LG3D

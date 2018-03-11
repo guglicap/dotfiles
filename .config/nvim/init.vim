@@ -1,16 +1,17 @@
+set nocompatible
 set relativenumber
-set incsearch
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'dylanaraps/wal.vim'
 	Plug 'scrooloose/nerdtree'
 	Plug 'stevearc/vim-arduino'
+	Plug 'aurieh/discord.nvim', { 'do': ':UpdateRemotePlugins'}
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-fugitive'
 call plug#end()
 
 cnoremap w!! w !sudo tee % > /dev/null
-noremap <C-n> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<CR>
 nnoremap <C-s> :w<CR>
 inoremap <C-s> :w<CR>
 map <up> <nop>
@@ -22,4 +23,3 @@ imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
 colorscheme wal
-

@@ -7,5 +7,6 @@
     . /usr/share/bash-completion/bash_completion
 
 alias ls='ls --color=auto'
+alias vim="nvim"
 PS1='\W \$ '
 PATH="$PATH:$HOME/bin/scripts:$HOME/bin/programs"

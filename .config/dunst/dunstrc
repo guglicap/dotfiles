@@ -1,0 +1,10 @@
+[global]
+    icon_position = left    
+    max_icon_size = 32
+    geometry = "300x3-30+20"
+    shrink = true
+    format = "<b>%s</b>\n%b"
+    padding = 8
+    font = "Terminus,NotoColorEmoji"
+    horizontal_padding = 8
+

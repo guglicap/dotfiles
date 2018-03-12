@@ -166,3 +166,6 @@ super + m ; f : {h,l}
 super + m ; r
 	mpc cdprev
 
+super + m ; w
+	music_notification.sh
+

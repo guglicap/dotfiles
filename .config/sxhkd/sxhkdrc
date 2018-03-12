@@ -149,4 +149,20 @@ super + a; m
 ## MUSIC
 
 super + m ; p
-	notify-send test
+	mpc toggle
+
+super + m ; s
+	mpc stop
+
+super + m ; l
+	mpc next
+
+super + m ; h
+	mpc prev
+
+super + m ; f : {h,l}
+	mpc seek {-,+}00:00:03
+
+super + m ; r
+	mpc cdprev
+

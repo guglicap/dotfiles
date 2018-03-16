@@ -9,4 +9,4 @@
 alias ls='ls --color=auto'
 alias vim="nvim"
 PS1='\W \$ '
-PATH="$PATH:$HOME/bin/scripts:$HOME/bin/programs"
+PATH="$PATH:$HOME/bin/links"

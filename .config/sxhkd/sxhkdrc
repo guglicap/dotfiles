@@ -132,10 +132,10 @@ shift + alt + 2
 ### SCROT
 
 Print
-	scrot "$HOME/Pictures/Screenshots/%s_$wx$h.png"
+	scrot "$HOME/Pictures/Screenshots/%s.png"
 
 alt + Print
-	scrot -u "$HOME/Pictures/Screenshots/%s_$wx$h.png"
+	scrot -u "$HOME/Pictures/Screenshots/%s.png"
 
 ## AUDIO
 
@@ -167,5 +167,5 @@ super + m ; r
 	mpc cdprev
 
 super + m ; w
-	music_notification.sh
+	music_notification
 

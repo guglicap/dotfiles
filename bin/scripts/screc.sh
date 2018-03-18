@@ -3,6 +3,7 @@ if [ "$1" = "-s" ]; then
 	if [ -r /tmp/screc_pid  ]; then
 		kill `cat /tmp/screc_pid`
 		rm /tmp/screc_pid
+	fi
 	exit 0
 fi
 slop=`slop -f "%wx%h %x,%y"`

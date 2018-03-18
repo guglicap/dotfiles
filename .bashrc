@@ -8,5 +8,6 @@
 
 alias ls='ls --color=auto'
 alias vim="nvim"
+alias usv="SVDIR=$HOME/bin/service sv"
 PS1='\W \$ '
 PATH="$PATH:$HOME/bin/links"

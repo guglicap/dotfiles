@@ -1,11 +1,11 @@
 [global]
     icon_position = left    
     max_icon_size = 32
-    geometry = "300x3-30+20"
+    geometry = "500x3-30+20"
     shrink = true
     format = "<b>%s</b>\n%b"
     padding = 8
-    font = "Terminus,NotoColorEmoji"
+    font = "Terminus"
     horizontal_padding = 8
     dmenu = /usr/bin/rofi -dmenu -p dunst
 

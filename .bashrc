@@ -11,3 +11,12 @@ alias vim="nvim"
 alias usv="SVDIR=$HOME/bin/service sv"
 PS1='\W \$ '
 PATH="$PATH:$HOME/bin/links"
+
+# java paths
+export JAVA_HOME=/usr/lib/jvm/oracle-jdk
+export ANDROID_HOME=$HOME/.local/share/Android
+export GRADLE_HOME=/usr/lib/gradle
+
+# java AA
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd'
+

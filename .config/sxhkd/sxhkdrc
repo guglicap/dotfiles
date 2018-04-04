@@ -137,6 +137,9 @@ Print
 alt + Print
 	scrot -u "$HOME/Pictures/Screenshots/%s.png"
 
+ctrl + alt + Print
+	scrot -s "$HOME/Pictures/Screenshots/%s.png"
+
 ## AUDIO
 
 super + a: {u,d}

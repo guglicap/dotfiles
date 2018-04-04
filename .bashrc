@@ -20,3 +20,4 @@ export GRADLE_HOME=/usr/lib/gradle
 # java AA
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd'
 
+export WINEPREFIX="$HOME/.local/share/wineprefixes/default"

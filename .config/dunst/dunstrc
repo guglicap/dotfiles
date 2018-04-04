@@ -1,33 +1,44 @@
+# vim: ft=cfg
 [global]
-    icon_position = left    
-    max_icon_size = 32
-    geometry = "500x3-30+20"
-    shrink = true
-    format = "<b>%s</b>\n%b"
-    padding = 8
-    font = "Terminus"
-    horizontal_padding = 8
-    dmenu = /usr/bin/rofi -dmenu -p dunst
+alignment = center
+follow = none
+format = "%s\n%b"
+horizontal_padding = 8
+indicate_hidden = yes
+line_height = 5
+markup = yes
+notification_height = 30
+padding = 16
+icon_position = left
+geometry = "300x1-30+20"
+font = "Terminus"
+max_icon_size = 32
+plain_text = no
+separator_height = 0
+shrink = no
+sort = yes
+word_wrap = yes
+dmenu = /usr/bin/rofi -dmenu -p dunst
+show_indicators = false
 
 [shortcuts]
+# Shortcuts are specified as [modifier+][modifier+]...key
+# Available modifiers are "ctrl", "mod1" (the alt-key), "mod2",
+# "mod3" and "mod4" (windows-key).
+# Xev might be helpful to find names for keys.
 
-    # Shortcuts are specified as [modifier+][modifier+]...key
-    # Available modifiers are "ctrl", "mod1" (the alt-key), "mod2",
-    # "mod3" and "mod4" (windows-key).
-    # Xev might be helpful to find names for keys.
+# Close notification.
+close = ctrl+space
 
-    # Close notification.
-    close = ctrl+space
+# Close all notifications.
+close_all = ctrl+shift+space
 
-    # Close all notifications.
-    close_all = ctrl+shift+space
+# Redisplay last message(s).
+# On the US keyboard layout "grave" is normally above TAB and left
+# of "1". Make sure this key actually exists on your keyboard layout,
+# e.g. check output of 'xmodmap -pke'
+history = ctrl+grave
 
-    # Redisplay last message(s).
-    # On the US keyboard layout "grave" is normally above TAB and left
-    # of "1". Make sure this key actually exists on your keyboard layout,
-    # e.g. check output of 'xmodmap -pke'
-    history = ctrl+grave
-
-    # Context menu.
-    context = ctrl+shift+period
+# Context menu.
+context = ctrl+shift+period
 

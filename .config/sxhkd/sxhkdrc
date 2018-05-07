@@ -129,17 +129,14 @@ shift + alt + 2
 	xdg-open http://
 
 
-### SCROT
+### SCREENSHOTS
 
 Print
-	scrot "$HOME/Pictures/Screenshots/%s.png"
+	maim -um 8 -f png | xclip -selection clipboard -t image/png
 
-alt + Print
-	scrot -u "$HOME/Pictures/Screenshots/%s.png"
-
-ctrl + alt + Print
-	scrot -s "$HOME/Pictures/Screenshots/%s.png"
-
+shift + Print
+	maim -um 8 f png - | xclip -selection clipboard -t image/png
+	
 ## AUDIO
 
 super + a: {u,d}

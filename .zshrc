@@ -1,11 +1,15 @@
-# .bashrc
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/goo/.zshrc'
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-
-[[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
-    . /usr/share/bash-completion/bash_completion
-
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
 alias ls='ls --color=auto'
 alias themegen='wal -nest --backend haishoku -i'
 alias themegenlight='wal -nest --backend haishoku -li'
@@ -22,4 +26,3 @@ export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd'
 
 export WINEPREFIX="$HOME/.local/share/wineprefixes/default"
 export GOPATH="$HOME/programming/go"
-

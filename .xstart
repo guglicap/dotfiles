@@ -1,4 +1,5 @@
 mopidy&
 setxkbmap -option compose:menu
 eval "$(ssh-agent)"
+compton&
 bspwm

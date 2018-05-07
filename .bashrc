@@ -7,8 +7,7 @@
     . /usr/share/bash-completion/bash_completion
 
 alias ls='ls --color=auto'
-alias vim="nvim"
-alias usv="SVDIR=$HOME/bin/service sv"
+alias themegen='wal -nest --backend haishoku -i'
 PS1='\W \$ '
 PATH="$PATH:$HOME/bin/links"
 
@@ -21,3 +20,5 @@ export GRADLE_HOME=/usr/lib/gradle
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=lcd'
 
 export WINEPREFIX="$HOME/.local/share/wineprefixes/default"
+export GOPATH="$HOME/programming/go"
+

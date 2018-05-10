@@ -169,3 +169,11 @@ super + m ; r
 super + m ; w
 	music_notification
 
+## POWER
+
+shift + alt + c
+	sudo poweroff
+shift + alt + w
+	sudo reboot
+shift + alt + l
+	sudo zzz

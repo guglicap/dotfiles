@@ -9,6 +9,7 @@
 alias ls='ls --color=auto'
 alias themegen='wal -nest --backend haishoku -i'
 alias themegenlight='wal -nest --backend haishoku -li'
+alias neofetch='neofetch --ascii_distro mac'
 PS1='\W \$ '
 PATH="$PATH:$HOME/bin/links"
 

@@ -126,7 +126,7 @@ super + {Left,Down,Up,Right}
 ### APPS
 
 shift + alt + 2
-	xdg-open http://
+	firefox
 
 
 ### SCREENSHOTS
@@ -135,7 +135,9 @@ Print
 	maim -um 8 -f png | xclip -selection clipboard -t image/png
 
 shift + Print
-	maim -um 8 f png - | xclip -selection clipboard -t image/png
+	maim -um 8 -i `xdotool getactivewindow` -f png | xclip -selection clipboard -t image/png
+ctrl + Print
+	maim -sum 8 -f png | xclip -selection clipboard -t image/png
 	
 ## AUDIO
 

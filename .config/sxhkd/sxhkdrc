@@ -168,9 +168,6 @@ super + m ; f : {h,l}
 super + m ; r
 	mpc cdprev
 
-super + m ; w
-	music_notification
-
 ## POWER
 
 shift + alt + c
@@ -179,3 +176,11 @@ shift + alt + w
 	sudo reboot
 shift + alt + l
 	sudo zzz
+
+## NOTIFICATIONS
+
+super + n ; m
+	music_notification
+
+super + n ; d
+	notify-send `date +%H:%M` "$(date "+%a, %d %B %Y")"

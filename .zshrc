@@ -11,7 +11,6 @@ compinit
 # End of lines added by compinstall
 alias ls='ls --color=auto'
 alias wal='wal -nest --backend haishoku'
-alias neofetch='neofetch --ascii_distro mac'
 PS1='%F{3}%1~%f %# '
 PATH="$PATH:$HOME/bin/links"
  

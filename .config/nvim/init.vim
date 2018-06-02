@@ -1,5 +1,8 @@
 set nocompatible
 set relativenumber
+set shiftwidth=4
+set tabstop=4
+set expandtab
 
 call plug#begin('~/.local/share/nvim/plugged')
 	Plug 'dylanaraps/wal.vim'

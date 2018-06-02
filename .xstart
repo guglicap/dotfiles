@@ -1,5 +1,10 @@
-mopidy&
+#!/usr/bin/env bash
+run_once() {
+    pidof "$1" > /dev/null || exec $@
+}
+
+run_once udiskie -2 &
 setxkbmap -option compose:menu
 eval "$(ssh-agent)"
-compton&
-bspwm
+run_once compton&
+exec bspwm

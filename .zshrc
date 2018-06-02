@@ -10,9 +10,11 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 alias ls='ls --color=auto'
-alias wal='wal -nest --backend haishoku'
+alias wal='wal -net --backend colorz'
 PS1='%F{3}%1~%f %# '
-PATH="$PATH:$HOME/bin/links"
+PATH="/usr/lib/ccache/bin:$PATH"
+PATH+=":$HOME/bin/links:$HOME/.local/bin"
+export PATH
  
 # java paths
 export JAVA_HOME=/usr/lib/jvm/oracle-jdk
